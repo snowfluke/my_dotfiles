@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=9;x=680;y=11"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="size" type="uint" value="18"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="16"/>
+        <value type="int" value="7"/>
+        <value type="int" value="5"/>
+        <value type="int" value="4"/>
+        <value type="int" value="17"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="10"/>
+        <value type="int" value="1"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="70"/>
+      <property name="leave-opacity" type="uint" value="70"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.38039215686274508"/>
+        <value type="double" value="0.20784313725490197"/>
+        <value type="double" value="0.51372549019607838"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="background-image" type="string" value="file:///home/awala/Pictures/Wallpaper/oshinokowp.jpeg"/>
+      <property name="enable-struts" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+      <property name="wrap-workspaces" type="bool" value="false"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “sius” active: sius (81%)"/>
+        <value type="string" value="wi-fi network connection “sius” active: sius (73%)"/>
+        <value type="string" value="warpinator-launch.py"/>
+        <value type="string" value="wi-fi network connection “sius” active: sius (86%)"/>
+        <value type="string" value="wi-fi network connection “#yanto” active: #yanto (62%)"/>
+        <value type="string" value="wi-fi network connection “sius” active: sius (79%)"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="wi-fi network connection “sius” active: sius (68%)"/>
+        <value type="string" value="wi-fi network connection “sius” active: sius (76%)"/>
+        <value type="string" value="wi-fi network connection “sius” active: sius (75%)"/>
+        <value type="string" value="wi-fi network connection “sius” active: sius (78%)"/>
+        <value type="string" value="configuring wi-fi network connection “sius”…"/>
+        <value type="string" value="wi-fi network connection “sius” active: sius (65%)"/>
+        <value type="string" value="wi-fi network connection “sius” active: sius (87%)"/>
+        <value type="string" value="wi-fi network connection “sius” active: sius (82%)"/>
+        <value type="string" value="requesting a wi-fi network address for “kerja”…"/>
+        <value type="string" value="wi-fi network connection “stmik komputama” active: stmik komputama (59%)"/>
+        <value type="string" value="wi-fi network connection “kerja” active: kerja (89%)"/>
+        <value type="string" value="wi-fi network connection “kerja” active: kerja (82%)"/>
+        <value type="string" value="wi-fi network connection “kerja” active: kerja (90%)"/>
+        <value type="string" value="wi-fi network connection “kerja” active: kerja (88%)"/>
+        <value type="string" value="wi-fi network connection “kerja” active: kerja (81%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (71%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (65%)"/>
+        <value type="string" value="configuring wi-fi network connection “aria”…"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (77%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (74%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (72%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (81%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (79%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (83%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (80%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (85%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (89%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (75%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (87%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (86%)"/>
+        <value type="string" value="wi-fi network connection “stmik komputama” active: stmik komputama (57%)"/>
+        <value type="string" value="wi-fi network connection “aria” active: aria (91%)"/>
+        <value type="string" value="wi-fi network connection “nically” active: nically (85%)"/>
+        <value type="string" value="warpinator"/>
+        <value type="string" value="wi-fi network connection “nically” active: nically (87%)"/>
+        <value type="string" value="wi-fi network connection “nically” active: nically (80%)"/>
+        <value type="string" value="wi-fi network connection “nically” active: nically (88%)"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="requesting a wi-fi network address for “nically”…"/>
+        <value type="string" value="wi-fi network connection “nically” active: nically (82%)"/>
+        <value type="string" value="no network connection"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="vlc"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="zoom"/>
+      </property>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="hidden-legacy-items" type="array">
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance1005;chromium.instance100708;chromium.instance10171;chromium.instance1019;chromium.instance1027;chromium.instance1034;chromium.instance1035;chromium.instance1044;chromium.instance10471;chromium.instance1060;chromium.instance106364;chromium.instance1073;chromium.instance108879;chromium.instance1091;chromium.instance1096;chromium.instance1102;chromium.instance110402;chromium.instance1107;chromium.instance1108;chromium.instance11090;chromium.instance1119;chromium.instance1122;chromium.instance1125;chromium.instance113194;chromium.instance1136;chromium.instance11361;chromium.instance1138;chromium.instance114438;chromium.instance117435;chromium.instance11858;chromium.instance118616;chromium.instance1207;chromium.instance1214;chromium.instance123437;chromium.instance125030;chromium.instance126168;chromium.instance126545;chromium.instance12696;chromium.instance1279;chromium.instance129062;chromium.instance129642;chromium.instance1309;chromium.instance1310;chromium.instance1311;chromium.instance1316;chromium.instance1332;chromium.instance133556;chromium.instance133787;chromium.instance135295;chromium.instance13541;chromium.instance1355;chromium.instance13577;chromium.instance137061;chromium.instance137456;chromium.instance1379;chromium.instance138029;chromium.instance140149;chromium.instance140656;chromium.instance14090;chromium.instance141237;chromium.instance142928;chromium.instance14396;chromium.instance145238;chromium.instance1480;chromium.instance150643;chromium.instance15170;chromium.instance1573;chromium.instance15755;chromium.instance157989;chromium.instance159220;chromium.instance1613;chromium.instance16136;chromium.instance161428;chromium.instance1621;chromium.instance1671;chromium.instance167732;chromium.instance17167;chromium.instance17248;chromium.instance173223;chromium.instance1761;chromium.instance17629;chromium.instance1789;chromium.instance18133;chromium.instance18164;chromium.instance191069;chromium.instance19973;chromium.instance20414;chromium.instance2053;chromium.instance2059;chromium.instance20695;chromium.instance21174;chromium.instance21314;chromium.instance21760;chromium.instance21804;chromium.instance2207;chromium.instance22610;chromium.instance23623;chromium.instance24151;chromium.instance2454;chromium.instance2492;chromium.instance2518;chromium.instance2554;chromium.instance25944;chromium.instance2656;chromium.instance26590;chromium.instance26956;chromium.instance27423;chromium.instance28458;chromium.instance28705;chromium.instance29119;chromium.instance29177;chromium.instance2999;chromium.instance31007;chromium.instance31034;chromium.instance31069;chromium.instance3112;chromium.instance3136;chromium.instance3150;chromium.instance32130;chromium.instance32338;chromium.instance32819;chromium.instance33565;chromium.instance35271;chromium.instance35965;chromium.instance36075;chromium.instance36366;chromium.instance36888;chromium.instance37697;chromium.instance3816;chromium.instance39294;chromium.instance43492;chromium.instance43765;chromium.instance4467;chromium.instance4486;chromium.instance4611;chromium.instance46115;chromium.instance4618;chromium.instance4649;chromium.instance4772;chromium.instance49181;chromium.instance50803;chromium.instance52067;chromium.instance5562;chromium.instance56186;chromium.instance5632;chromium.instance56640;chromium.instance5805;chromium.instance58900;chromium.instance5917;chromium.instance59744;chromium.instance60882;chromium.instance62137;chromium.instance62695;chromium.instance67094;chromium.instance67324;chromium.instance7090;chromium.instance73158;chromium.instance7323;chromium.instance77065;chromium.instance7839;chromium.instance78850;chromium.instance7911;chromium.instance79711;chromium.instance8132;chromium.instance81485;chromium.instance8219;chromium.instance83404;chromium.instance84939;chromium.instance85138;chromium.instance8542;chromium.instance87471;chromium.instance88734;chromium.instance89731;chromium.instance90935;chromium.instance9117;chromium.instance92409;chromium.instance9360;chromium.instance95263;chromium.instance9549;chromium.instance9561;chromium.instance99903;vlc"/>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="mode" type="uint" value="3"/>
+      <property name="fuzziness" type="uint" value="0"/>
+      <property name="timezone" type="string" value="Asia/Jakarta"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-7" type="string" value="whiskermenu"/>
+    <property name="plugin-16" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-17" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-1" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="paste-on-activate" type="uint" value="1"/>
+        <property name="max-menu-items" type="uint" value="50"/>
+      </property>
+    </property>
+  </property>
+</channel>
