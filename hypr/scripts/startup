@@ -34,3 +34,7 @@ nm-applet --indicator &
 
 # Start mpd
 exec mpd ~/.config/mpd/mpd.conf &
+
+# Flameshot
+flameshot &
+
