@@ -4,7 +4,8 @@
 ##
 ## Simple Script To Pick Color Quickly.
 
-color=$(grim -g "`slurp -b 20262C00 -p`" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:- | tail -n1 | cut -d' ' -f4)
+#color=$(grim -g "`slurp -b 00000000 -p`" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:- | tail -n1 | cut -d' ' -f4)
+color=`$HOME/.config/hypr/scripts/hyprpicker`
 image=/tmp/${color}.png
 
 main() {

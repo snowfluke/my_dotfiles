@@ -4,6 +4,11 @@
 ##
 ## Script to take screenshots with grim, slurp (in Wayland)
 
+# Get Colors
+DIR="$HOME/.config/hypr"
+background="`cat $DIR/rofi/shared/colors.rasi | grep 'background:' | cut -d':' -f2 | tr -d ' '\;`"
+accent="`cat $DIR/rofi/shared/colors.rasi | grep 'selected:' | cut -d':' -f2 | tr -d ' '\;`"
+
 iDIR="$HOME/.config/hypr/mako/icons"
 
 time=`date +%Y-%m-%d-%H-%M-%S`
@@ -57,7 +62,7 @@ shotwin () {
 }
 
 shotarea () {
-	cd ${dir} && grim -g "$(slurp -b 20262CCC -c B4A1DBff -s B4A1DB0D -w 2 && sleep 0.3)" - | tee "$file" | wl-copy
+	cd ${dir} && grim -g "$(slurp -b ${background:1}CC -c ${accent:1}ff -s ${accent:1}0D -w 2 && sleep 0.3)" - | tee "$file" | wl-copy
 	notify_view
 }
 

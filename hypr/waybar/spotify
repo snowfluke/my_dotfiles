@@ -4,26 +4,12 @@
 ##
 ## Script for spotify for waybar
 
-combi="$(playerctl -p spotify status)$(playerctl status)"
-
-
-case $combi in 
-    "PlayingPlaying"|"PlayingPaused"|"PlayingStopped"|"PausedPaused"|"PausedStopped")
-      player_status=$(playerctl -p spotify status)
-      artist=$(playerctl -p spotify metadata artist)
-      title=$(playerctl -p spotify metadata title)
-      ;;
-    *)
-      player_status=$(playerctl status)
-      artist=$(playerctl metadata artist)
-      title=$(playerctl metadata title)
-      ;;
-esac
+player_status=$(playerctl status 2> /dev/null)
 
 if [ "$player_status" = "Playing" ]; then
-    echo -e " $artist - $title\nPlaying: $artist - $title\nplaying"
+    echo -e " $(playerctl metadata artist) - $(playerctl metadata title)\nPlaying: $(playerctl metadata artist) - $(playerctl metadata title)\nplaying"
 elif [ "$player_status" = "Paused" ]; then
-    echo -e " $artist - $title\nPaused: $artist - $title\npaused"
+    echo -e " $(playerctl metadata artist) - $(playerctl metadata title)\nPaused: $(playerctl metadata artist) - $(playerctl metadata title)\npaused"
 else
-    echo -e " Spotify Offline!\nSpotify Offline.\noffline"
+	echo -e " Spotify Offline!\nSpotify Offline.\noffline"
 fi

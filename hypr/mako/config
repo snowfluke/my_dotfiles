@@ -19,7 +19,7 @@ width=300
 height=100
 margin=10
 padding=15
-border-size=1
+border-size=2
 border-radius=0
 icons=1
 max-icon-size=48
@@ -34,25 +34,21 @@ max-visible=5
 layer=overlay
 anchor=top-right
 
+# Mako_Colors
 background-color=#20262C
 text-color=#f1fcf9
-border-color=#B4A1DB
-progress-color=over #B4A1DB
+border-color=#2a323b
+progress-color=over #b4a1db
 
 [urgency=low]
-border-color=#B4A1DB
+border-color=#2a323b
 default-timeout=2000
 
 [urgency=normal]
-border-color=#B4A1DB
+border-color=#2a323b
 default-timeout=5000
 
 [urgency=high]
-border-color=#D04E9D
-text-color=#D04E9D
+border-color=#db86ba
+text-color=#db86ba
 default-timeout=0
-
-[category=mpd]
-border-color=#E49186
-default-timeout=2000
-group-by=category

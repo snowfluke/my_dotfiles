@@ -35,10 +35,17 @@ window#waybar.hidden {
 	padding: 2px 8px 2px 8px;
 }
 
+#custom-themes {
+    background-color: @selected;
+}
+
 #custom-power {
-	background-color: @pink;
-	color: @background;
+	background-color: @red;
 	font-size: 16px;
+}
+
+#custom-power, #custom-themes {
+	color: @background;
 	border-radius: 10px;
 	margin: 6px 6px 6px 0px;
 	padding: 2px 8px 2px 8px;
@@ -53,7 +60,7 @@ window#waybar.hidden {
 	padding: 4px 6px;
 }
 #idle_inhibitor.deactivated {
-	background-color: @orange;
+	background-color: @red;
 }
 
 /** ********** Tray ********** **/
@@ -94,7 +101,7 @@ window#waybar.hidden {
 	color: @red;
 }
 #mpd.stopped {
-	color: @orange;
+	color: @red;
 }
 #mpd.playing {
 	color: @cyan;
@@ -164,7 +171,7 @@ window#waybar.hidden {
 
 /** ********** Pulseaudio ********** **/
 #pulseaudio {
-	color: @green;
+	color: @blue;
 }
 #pulseaudio.bluetooth {
 	color: @cyan;
@@ -182,12 +189,12 @@ window#waybar.hidden {
 
 /** ********** Backlight ********** **/
 #backlight {
-	color: @yellow;
+	color: @magenta;
 }
 
 /** ********** Battery ********** **/
 #battery {
-	color: @magenta;
+	color: @cyan;
 }
 #battery.charging {
 }
@@ -199,11 +206,11 @@ window#waybar.hidden {
     }
 }
 #battery.critical:not(.charging) {
-	background-color: @background-alt1;
+	background-color: @background-alt2;
 }
 #battery.2.critical:not(.charging) {
-	background-color: @background-alt2;
-    color: @orange;
+	background-color: @background-alt1;
+    color: @red;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -213,7 +220,7 @@ window#waybar.hidden {
 
 /** ********** Network ********** **/
 #network {
-	color: @blue;
+	color: @yellow;
 }
 #network.disconnected,#network.disabled {
 	color: @red;
@@ -225,26 +232,48 @@ window#waybar.hidden {
 #network.wifi {
 }
 
+/** ********** Bluetooth ********** **/
+#bluetooth {
+	color: @green;
+}
+#bluetooth.disabled{
+	color: @red;
+}
+#bluetooth.off{
+	color: @red;
+}
+#bluetooth.on{
+}
+#bluetooth.connected{
+}
+#bluetooth.discoverable{
+}
+#bluetooth.discovering{
+}
+#bluetooth.pairable{
+}
+
 /** ********** Clock ********** **/
 #clock {
-	color: @cyan;
+	color: @blue;
 }
 
 /** ********** WLR Desktop ********** **/
 #workspaces {
-	background-color: @background-alt1;
+	background-color: @background;
 	border-radius: 10px;
-	margin: 6px 0px 6px 6px ;
-	padding: 0px 5px;
+	margin-left: 6px ;
+	margin-bottom: 2px ;
+	padding: 0px;
 }
 #workspaces button{
 	color: @foreground;
 }
 #workspaces button.active{
-	color: @pink;
+	color: @red;
 }
 #workspaces button.urgent{
-	color: @red;
+	color: @green;
 }
 #workspaces button.hidden{
 	color: @yellow;
@@ -258,8 +287,9 @@ window#waybar.hidden {
 #disk,
 #memory,
 #pulseaudio,
-#network {
-	background-color: @background-alt1;
+#network,
+#bluetooth {
+	background-color: @background-alt2;
 	border-radius: 10px 0px 0px 10px;
 	margin: 6px 0px 6px 0px ;
 	padding: 4px 6px;
@@ -272,8 +302,9 @@ window#waybar.hidden {
 #disk.2,
 #memory.2,
 #pulseaudio.2,
-#network.2 {
-	background-color: @background-alt2;
+#network.2,
+#bluetooth.2 {
+	background-color: @background-alt1;
 	color: @foreground;
 	font-size: 12px;
 	font-weight: bold;
