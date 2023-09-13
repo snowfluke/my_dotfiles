@@ -57,7 +57,7 @@
         "format": "{capacity}%",
         "format-charging": "{capacity}%",
         "format-plugged": "{capacity}%",
-        "format-full": "Full",
+        "format-full": "-3-",
         "format-alt": "{time}",
         "format-time": "{H}h {M}min",
         "tooltip": true,
@@ -86,7 +86,7 @@
         "format": "{status}",
         "format-on": "{status}",
         "format-off": "{status}",
-        "format-disabled": "{status}",
+        "format-disabled": "x_x",
         "format-connected": "{device_alias}",
         "format-connected-battery": "{device_alias}, {device_battery_percentage}%",
         "tooltip": true,
@@ -242,8 +242,8 @@
         "format-wifi": "{essid}",
         "format-ethernet": "{ipaddr}/{cidr}",
         "format-linked": "{ifname} (No IP)",
-        "format-disconnected": "Disconnected",
-        "format-disabled": "Disabled",
+        "format-disconnected": "-x-",
+        "format-disabled": "x_x",
         "format-alt": " {bandwidthUpBits} |  {bandwidthDownBits}",
         "tooltip-format": " {ifname} via {gwaddr}",
     },
@@ -275,9 +275,9 @@
     "pulseaudio#2": {
         //"format": "{volume}% {icon} {format_source}",
         "format": "{volume}%",
-        "format-muted": "Mute",
+        "format-muted": "-x-",
         "format-bluetooth": "{volume}%",
-        "format-bluetooth-muted": "Mute",
+        "format-bluetooth-muted": "-x-",
         "format-source": "{volume}%",
         "scroll-step": 5.0,
 		// Commands to execute on events
@@ -316,7 +316,7 @@
              "focused": "",
              "default": ""
          },
-         "on-click": "activate",
+         "on-click": "activate"
     },
 
 	// waybar-tray
