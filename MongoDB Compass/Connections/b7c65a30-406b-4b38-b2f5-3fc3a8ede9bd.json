@@ -1,0 +1,13 @@
+{
+  "connectionInfo": {
+    "id": "b7c65a30-406b-4b38-b2f5-3fc3a8ede9bd",
+    "connectionOptions": {
+      "connectionString": "mongodb://nayanika-admin@localhost:27017/galeri-nayanika",
+      "oidc": {
+        "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+      }
+    },
+    "lastUsed": "2023-10-02T16:12:25.226Z"
+  },
+  "_id": "b7c65a30-406b-4b38-b2f5-3fc3a8ede9bd"
+}

@@ -4,6 +4,6 @@
 ##
 ## Set Wallpaper in Hyprland
 
-WALLPAPER='/home/awala/Pictures/wallpapers/wallpaper_5.jpg'
+WALLPAPER='/home/awala/Pictures/wallpapers/wallpaper_3.jpg'
 
 swaybg --output '*' --mode fill --image "$WALLPAPER"
